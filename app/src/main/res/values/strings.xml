@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ForwardResultExample</string>
+    <string name="get_partial_result_first">Get partial result first</string>
+    <string name="deliver_result_to_activity1">Deliver result to activity 1</string>
+    <string name="type_something">Type something</string>
+    <string name="type_something_first">Type something first</string>
+    <string name="complete_partial_result">Complete partial result</string>
+    <string name="complete_final_result">Complete final result</string>
+    <string name="go_to_step_two">Go to step 2</string>
+    <string name="go_to_step_two_dot_one">Go to step 2.1</string>
+    <string name="go_to_step_three">Go to step 3</string>
+    <string name="final_result_will_be_showed_here">Final result will be showed here:</string>
+    <string name="partial_result_will_be_showed_here">Partial result will be showed here</string>
+</resources>

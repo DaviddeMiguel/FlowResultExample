@@ -1,0 +1,39 @@
+<manifest
+    package="com.meslize.forwardresultexample"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".steps.StepOneActivity"
+            android:label="Step 1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".steps.StepTwoActivity"
+            android:label="Step 2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".steps.StepTwoDotOneActivity"
+            android:label="Step 2.1"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".steps.StepThreeActivity"
+            android:label="Step 3"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>
