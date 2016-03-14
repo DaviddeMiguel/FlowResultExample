@@ -3,7 +3,7 @@ This project show a different approach to return a result between multiple activ
 
 Android provide us [**FLAG_ACTIVITY_FORWARD_RESULT**](http://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_FORWARD_RESULT) and that is great, but you will find problems like:
 
-- Need to finish the intermediate activities, otherwise the result will not be delivered until the user closes the screen itself.
+- Need to finish the intermediate activities, otherwise the result will not be delivered until the user closes the activity itself.
 
 With this new approach, using the power of `startActivityForResult` and `onActivityResult` you are able to:
 
