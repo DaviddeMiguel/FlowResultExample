@@ -5,7 +5,7 @@ Android provide us [**FLAG_ACTIVITY_FORWARD_RESULT**](http://developer.android.c
 
 - Need to finish the intermediate activities, otherwise the result will not be delivered until the user closes the activity itself.
 
-With this new approach, using the power of `startActivityForResult` and `onActivityResult` you are able to:
+With this new approach, using the power of `startActivityForResult` and `onActivityResult` you will be able to:
 
 - Have a flows as long as you want, the user can go forward back and forward as many times as it needs.
 - Have sub-flows to get partial results.
