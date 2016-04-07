@@ -1,14 +1,20 @@
 <resources>
-    <string name="app_name">ForwardResultExample</string>
-    <string name="get_partial_result_first">Get partial result first</string>
-    <string name="deliver_result_to_activity1">Deliver result to activity 1</string>
-    <string name="type_something">Type something</string>
-    <string name="type_something_first">Type something first</string>
-    <string name="complete_partial_result">Complete partial result</string>
-    <string name="complete_final_result">Complete final result</string>
-    <string name="go_to_step_two">Go to step 2</string>
-    <string name="go_to_step_two_dot_one">Go to step 2.1</string>
-    <string name="go_to_step_three">Go to step 3</string>
-    <string name="final_result_will_be_showed_here">Final result will be showed here:</string>
-    <string name="partial_result_will_be_showed_here">Partial result will be showed here</string>
+  <string name="app_name">ForwardResultExample</string>
+  <string name="complete_name_first">Complete the name first</string>
+  <string name="complete_address_first">Complete the address first</string>
+  <string name="type_something_first">Type something first</string>
+  <string name="buy_something">Buy something</string>
+  <string name="complete_profile">Complete profile</string>
+  <string name="name">Name:</string>
+  <string name="address">Address:</string>
+  <string name="name_hint">Name</string>
+  <string name="address_hint">Address</string>
+  <string name="complete_address">Complete address</string>
+  <string name="accept">Accept</string>
+  <string name="complete_buy">Complete buy</string>
+  <string name="complete_the_profile_first">Complete the profile first</string>
+  <string name="add_address">Add address</string>
+  <string name="empty">Empty</string>
+  <string name="other_possible_entry_to_profile">Other possible entry to profile</string>
+  <string name="complete_other_possible_entry">Complete other possible entry</string>
 </resources>
