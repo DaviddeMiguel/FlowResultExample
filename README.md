@@ -1,4 +1,4 @@
-# ForwardResultExample
+# FlowResultExample
 This project show a different approach to return a result between multiple activities.
 
 Android provide us [**FLAG_ACTIVITY_FORWARD_RESULT**](http://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_FORWARD_RESULT) and that is great, but you will find problems like:
