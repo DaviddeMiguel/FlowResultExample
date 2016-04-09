@@ -44,7 +44,6 @@ public class BuyActivity extends BaseActivity {
 
   @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == PROFILE_REQUEST_CODE_FLOW && resultCode == RESULT_OK) {
-
       Profile profile = ExtrasUtils.getProfile(data);
       onProfileCompleted(profile);
     } else {
